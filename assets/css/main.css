@@ -2209,7 +2209,6 @@ input, select, textarea {
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
 		background: #f0f0f0;
-		padding: 6em 0 8em 0;
 	}
 
 		#footer form input[type="text"],
@@ -2231,15 +2230,6 @@ input, select, textarea {
 		#footer h2 {
 			text-align: center;
 		}
-
-/* Copyright */
-
-	#copyright {
-		border-top: solid 2px #e5e5e5;
-		text-align: center;
-		margin-top: 6em;
-		padding-top: 4em;
-	}
 
 /* XLarge */
 
