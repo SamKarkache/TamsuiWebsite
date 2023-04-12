@@ -1922,6 +1922,7 @@ input, select, textarea {
 			font-size: 3em;
 			line-height: 100%;
 			letter-spacing: 0.4rem;
+			cursor: default;
 		}
 
 			#header h1 a {
@@ -1936,6 +1937,7 @@ input, select, textarea {
 			font-size: 1.2em;
 			letter-spacing: 2px;
 			text-align: center;
+			cursor: default;
 		}
 
 /* Nav */
