@@ -2180,7 +2180,7 @@ input, select, textarea {
 		#content > article:first-child {
 			border-top: 0;
 			box-shadow: none;
-			margin: 0;
+			margin: 3.5em;
 			padding: 0;
 		}
 
