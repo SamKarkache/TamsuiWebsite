@@ -1489,9 +1489,9 @@ input, select, textarea {
 		border: solid 6px #ebebeb !important;
 	}
 
-		.image:hover {
+/*		.image:hover {
 			opacity: 0.9;
-		}
+		}*/
 
 		.image img {
 			display: block;
@@ -2208,7 +2208,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
-		background: #f0f0f0;
+		background: #075671;
 	}
 
 		#footer form input[type="text"],
@@ -2312,14 +2312,14 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 4em 0;
+				padding: 2em 0;
 			}
 
 		/* Copyright */
 
 			#copyright {
-				margin-top: 2em;
-				padding-top: 2em;
+				margin-top: 0em;
+				padding-top: 0em;
 			}
 
 	}
