@@ -1530,6 +1530,8 @@ input, select, textarea {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
+			background-color: #f0f0f0;
+			padding: 0 2em 1.5em 2em;
 		}
 
 		.map.container span {
@@ -1542,7 +1544,7 @@ input, select, textarea {
 			flex: 1;
 			width: 10%;
 			height: 469px;
-			padding: 1.2em 0 0 1em;
+			padding: 1.5em 1em 0 1em;
 		 }
 
 /* List */
