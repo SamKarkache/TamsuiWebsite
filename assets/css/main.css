@@ -159,7 +159,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 600;
-		color: #666;
+		color: #f07676;
 	}
 
 	em, i {
@@ -1504,7 +1504,7 @@ input, select, textarea {
 		}
 
 		.image.featured {
-			display: block;
+			display: flex;
 			width: 100%;
 			margin: 0 0 3.5em 0;
 		}
@@ -2201,7 +2201,7 @@ input, select, textarea {
 		#content > article:first-child {
 			border-top: 0;
 			box-shadow: none;
-			margin: 3.5em;
+			margin: 0;
 			padding: 0;
 		}
 
