@@ -1547,6 +1547,52 @@ input, select, textarea {
 			margin-right: auto;
 		}
 
+		.crop {
+			width: 100%;
+			height: 380px;
+			overflow: hidden;
+			object-fit: cover;
+			display: block;
+		}
+
+.crop img {
+	max-width: 125%;
+	height: 380px;
+	object-position: center;
+}
+
+/* For screens smaller than 768px (mobile devices) */
+@media (max-width: 768px) {
+
+	/* Set the width of the image container to 100% to make it take up the full width of the screen */
+	.crop {
+		width: 100%;
+		display: block;
+	}
+
+	/* Set the display property of the image container to block to make it take up the full width of the screen */
+	.crop a {
+		display: block;
+	}
+
+	/* Set the width of the images to 100% to make them take up the full width of the container */
+	.crop img {
+		width: 100%;
+		height: auto;
+	}
+
+	/* Set the margin bottom of the image container to create space between each row of images */
+	.crop {
+		margin-bottom: 20px;
+	}
+
+	/* Set the width of each column to be 25% to create 4 columns in a row */
+	.col-4 {
+		width: 25%;
+	}
+}
+
+
 /* List */
 
 	ul {
